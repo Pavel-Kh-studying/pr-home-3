@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+
+table {
+  margin: 50px 0 0 50px;
+  font-family: "Roboto", sans-serif;
+  min-width: 770.29px;
+}
+
+table tr:first-child td,
+table tr:first-child th {
+  color: white;
+  font-weight: bold;
+}
+
+table tr:first-child td {
+  font-size: 18px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+table tr:first-child th {
+  padding: 13px 20px;
+}
+
+table tr:first-child th span {
+  display: block;
+}
+
+table tr:first-child th span:first-child {
+  margin-bottom: 20px;
+  font-size: 19px;
+}
+
+table tr:first-child th span:nth-child(2) {
+  margin: 20px 0 5px;
+  font-size: 30px;
+}
+
+table tr:first-child th span:last-child {
+  margin-top: 5px;
+  font-size: 19px;
+}
+
+table tr:not(:first-child) th {
+  text-align: left;
+  padding: 10px 25px 10px 30px;
+}
+
+table tr:not(:first-child) td {
+  text-align: center;
+}
+
+table tr:last-child td {
+  padding: 10px 0;
+}
+
+table tr:first-child td {
+  background-color: #7887ab;
+  border-radius: 10px 0 0 0;
+}
+
+table tr:first-child th:nth-child(2) {
+  background-color: #4f628e;
+}
+
+table tr:first-child th:nth-child(3) {
+  background-color: #2e4172;
+}
+
+table tr:first-child th:nth-child(4) {
+  background-color: #162955;
+}
+
+table tr:first-child th:nth-child(5) {
+  background-color: #061539;
+  border-radius: 0 10px 0 0;
+}
+
+table tr:nth-child(2n) td:nth-child(2n + 1),
+table tr:nth-child(2n) th {
+  background-color: #dbdbdb;
+}
+
+table tr:nth-child(2n) td:nth-child(2n) {
+  background-color: #e7e7e7;
+}
+
+table tr:nth-child(2n + 1):not(:first-child) td:nth-child(2n + 1),
+table tr:nth-child(2n + 1):not(:first-child) th {
+  background-color: #ececec;
+}
+
+table tr:nth-child(2n + 1):not(:first-child) td:nth-child(2n) {
+  background-color: #f3f3f3;
+}
+
+table tr:last-child td:first-child {
+  border-radius: 0 0 0 10px;
+}
+
+table tr:last-child td:last-child {
+  border-radius: 0 0 10px 0;
+}
+
+table tr:last-child button {
+  text-transform: uppercase;
+  padding: 3px 20px;
+  border: 2px solid #c2c2c2;
+  background-color: #d3d3d3;
+}
